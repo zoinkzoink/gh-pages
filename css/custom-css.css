@@ -1,0 +1,103 @@
+#the_header .logo-v2 .logo-slot img{
+  max-height: 8rem !important;
+}
+
+#wrapper #_the_navigation a, #menu-holder a, /*#jPanelMenu-menu*/ .mediaqueries.mobileview #access a {
+  font-size: 1.3rem !important;
+  font-weight: normal !important;
+}
+
+#the_share .left {
+  float: right !important;
+  margin-right: 1.6rem !important;
+}
+
+.test1 {
+  margin-right:5px  !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  width: 150px !important;
+  border-radius:2px;
+  font-size:20px;
+  background-color:#000000;
+  padding: 6px 22px 6px 22px;
+  text-decoration: none !important;
+  text-align: center;
+  color: #fff !important;
+}
+.test1:hover {
+  background-color:#FF8959 !important;
+}
+
+.test2 {
+  margin-left:5px  !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  width: 100px !important;
+  border-radius:2px;
+  font-size:20px;
+  background-color:#000000;
+  padding: 6px 22px 6px 22px;
+  text-decoration: none !important;
+  text-align: center;
+  color: #fff !important;
+}
+.test2:hover {
+  background-color:#FF8959 !important;
+}
+
+#container .tsidesign_dl .the_list_item.no_image {
+  background-color: transparent !important;
+}
+
+.page-id-314 .full_width_content.content_bg.wrp_color_bg {
+  background-color: transparent !important;
+}
+
+.page-id-314 .tsidesign_dl .slidesjs-container {
+  max-height: 38rem !important;
+}
+
+#the_footer {max-width:100% !important; }
+#the_footer #_the_logo { margin-right:auto !important; margin-left:auto !important; max-width:106rem !important; }
+#the_footer #_the_copyright { margin-right:auto !important; margin-left:auto !important; max-width:106rem !important; }
+#the_footer .section.w988 { margin-right:auto !important; margin-left:auto !important; max-width:106rem !important; }
+
+.footer_brand {
+  background-color: #FF8959 !important;
+}
+
+.page-id-314 .content {
+  padding-top: 2.6rem !important;
+}
+
+#container .tsidesign_features .right .the_list_item_image {
+  width: 15% !important;
+}
+
+
+@media(min-width:1240px) {
+  .page-id-314 #container {
+    margin-top: 6.0rem !important;
+  }
+}
+
+@media(max-width:800px) {
+  .page-id-314 .full_width_content.content_bg.wrp_color_bg {
+    background-image: url('http://harmonology.townsquareinteractive.com/files/2015/05/bkg-2.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-position: center top !important;
+  }
+}
+
+@media(max-width:575px) {
+  #the_header .logo-v2 .logo-slot img{
+    max-height: 4.2rem !important;
+  }
+}
+
+@media(max-width:500px) {
+  .test1, .test2 {
+    font-size:12px !important;
+  }
+}
