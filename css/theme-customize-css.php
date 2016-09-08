@@ -126,7 +126,7 @@ logo: */
  */
 
 /* SAN ANTONIO - GENERAL COLORS*/
-body{background-color:#ffffff;background-image:url('http://harmonology.townsquareinteractive.com/files/2015/05/bkg-2.jpg');background-repeat:no-repeat;background-position:center top;background-attachment:;background-size: ;}
+body{background-color:#ffffff;background-image:url('ttps://zoinkzoink.github.io/sc/images/bkg-2.jpg');background-repeat:no-repeat;background-position:center top;background-attachment:;background-size: ;}
 
 /*OVERRIDE BACKGROUND COLOR IF BACKGROUND IMAGE EXISTS WITH COLOR*/
 body{}
