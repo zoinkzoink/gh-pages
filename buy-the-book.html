@@ -1,0 +1,408 @@
+<!-- Doctype and head -->
+
+<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en" class="theme_bg san-antonio_theme unknown-os" ng-app="themeApp" ng-controller="themeCtrl">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="generator" content="TextMate http://macromates.com/">
+<!--    <meta name="author" content="admin"> -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+
+    <link rel="pingback" href="http://harmonologybook.com/xmlrpc.php" />
+    <title>Harmonology | Stephen O&#039;Connor</title>
+            <script type="text/javascript">
+            window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/harmonologybook.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=127_8_2"}};
+            !function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+        </script>
+        <style type="text/css">
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+
+}
+
+</style>
+<link rel='stylesheet' id='dashicons-css'  href='css/dashicons.min.css?ver=127_8_2' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='css/thickbox.css?ver=127_8_2' type='text/css' media='all' />
+<link rel='stylesheet' id='cms-store-css-css'  href='css/style.css?ver=127_8_2' type='text/css' media='all' />
+<link rel='stylesheet' id='save-theme-admin-css-css'  href='css/styles.css?ver=127_8_2' type='text/css' media='all' />
+<link rel='stylesheet' id='cms-domain-css-css'  href='css/gd_domain.css?ver=127_8_2' type='text/css' media='all' />
+
+<!-- jquery UI css -->
+<link rel='stylesheet' id='jquery-ui-css'  href='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css?ver=127_8_2' type='text/css' media='all' />
+
+<!-- back to custom -->
+<link rel='stylesheet' id='custom-css-css'  href='css/custom-css.css?ver=127_8_2&#038;cb=1434389743' type='text/css' media='all' />
+<link rel='stylesheet' id='mp-store-theme-css'  href='css/icons.css?ver=127_8_2' type='text/css' media='all' />
+
+<!-- Google fonts -->
+<link rel='stylesheet' id='Source-Sans-Pro-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C700&#038;ver=127_8_2' type='text/css' media='all' />
+
+
+<!-- I added this font: -->
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+
+
+<!-- these ones need work: -->
+<!-- DONE -->       <link rel='stylesheet' id='theme-css'  href='css/themes/style.css?ver=127_8_2' type='text/css' media='all and (min-width:0px)' />
+<!-- Seems OK -->   <link rel='stylesheet' id='customize-css'  href='css/theme-customize-css.php?ver=127_8_2' type='text/css' media='all' />
+<!-- DONE -->       <link rel='stylesheet' id='b2b-list-frontend-styles-css'  href='css/styles-fe.css?ver=127_8_2' type='text/css' media='all' />
+
+
+<script type='text/javascript' src='js/jquery.js?ver=127_8_2'></script>
+<script type='text/javascript' src='js/jquery-migrate.min.js?ver=127_8_2'></script>
+<script type='text/javascript' src='js/jquery.jscrollpane.min.js?ver=127_8_2'></script>
+<script type='text/javascript' src='js/jquery.counter-2.0.min.js?ver=127_8_2'></script>
+<script type='text/javascript' src='js/jquery.validate.js?ver=127_8_2'></script>
+<script type='text/javascript' src='js/jquery.customselect.rishi.js?ver=127_8_2'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js?ver=127_8_2'></script>
+
+
+<!-- is this needed? remove for now.
+<script type='text/javascript'>
+/* <![CDATA[ */
+var MP_Ajax = {"ajaxUrl":"http:\/\/harmonologybook.com\/wp-admin\/admin-ajax.php","emptyCartMsg":"Are you sure you want to remove all items from your cart?","successMsg":"Item Added!","imgUrl":"http:\/\/harmonology.production.townsquareinteractive.com\/wp-content\/plugins\/marketpress\/marketpress-includes\/images\/loading.gif","addingMsg":"Adding to your cart...","outMsg":"Out of Stock"};
+/* ]]> */
+</script>
+-->
+
+<!-- remove this too
+<script type='text/javascript' src='http://harmonology.production.townsquareinteractive.com/wp-content/plugins/marketpress/marketpress-includes/js/store.js?ver=127_8_2'></script>
+-->
+
+<script type='text/javascript' src='js/angular.js?ver=127_8_2'></script>
+
+<!-- mirrored this locally 
+<script type='text/javascript' src='http://tsm-js.s3.amazonaws.com/jquery.sonar.min.js?ver=127_8_2'></script>
+-->
+<script type='text/javascript' src='js/jquery.sonar.min.js?ver=127_8_2'></script>
+
+<script type='text/javascript' src='js/scripts-fe.js?ver=127_8_2'></script>
+
+<!-- will have to re-add google analytics I think 
+<script type='text/javascript' src='http://harmonologybook.com/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=127_8_2'></script>
+-->
+
+<!-- remove this stuff for now:
+
+<link rel='https://api.w.org/' href='http://harmonologybook.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://harmonologybook.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://harmonologybook.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.5.3" />
+<link rel='shortlink' href='http://harmonologybook.com/' />
+<link rel="alternate" type="application/json+oembed" href="http://harmonologybook.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fharmonologybook.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://harmonologybook.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fharmonologybook.com%2F&#038;format=xml" />
+
+-->
+
+<!-- Facebook stuff -->
+
+<meta property="og:image" content="http://harmonologybook.com/files/2014/04/Me.jpg"/>
+<meta property="og:image" content="http://harmonologybook.com/files/2014/04/Harmonology-book.png"/>
+<meta property="og:image" content="http://harmonologybook.com/files/2014/04/features1.png"/>
+<meta property="og:image" content="http://harmonologybook.com/files/2014/04/features2.png"/>
+<meta property="og:image" content="http://harmonologybook.com/files/2014/04/features3.png"/>
+<meta property="og:image" content="http://harmonologybook.com/files/2014/04/features4.png"/>
+<meta property="og:title" content="Harmonology | , "/>
+<meta property="og:site_name" content="Harmonology"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://harmonologybook.com/"/>
+<meta property="og:description" content=""/>
+
+
+<!-- All in One SEO Pack Pro 2.3.1 by Michael Torbert of Semper Fi Web Design[644,662] -->
+<!-- Debug String: NL2LFI0QJ6LRIWWL/3UGFJAUGCS  
+<link rel="canonical" href="http://harmonologybook.com/" />
+  /all in one seo pack pro -->
+
+<!-- updated this:
+<script src="http://s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+-->
+<script src="js/nwmatcher.js"></script>
+
+
+
+<!--[if lt IE 9]>
+    <link rel="stylesheet" media="screen" href="http://harmonologybook.com/wp-content/themes/beacon-theme_san-antonio/style-ie8.css" />
+    <script type="text/javascript" src="http://harmonologybook.com/wp-content/themes/beacon-easton/js/selectivizr-min.js"></script>
+<![endif]-->
+
+    <script type="text/javascript">
+        var app = angular.module('themeApp', []);
+        app.controller('themeCtrl', function() {
+            // Silent is beautiful
+        });
+    </script>
+    <!--
+    <script type="text/javascript" src="http://harmonologybook.com/wp-content/themes/beacon-easton/js/modernizr.custom.52844.js"></script>
+    -->
+    <script type="text/javascript" src="js/modernizr.custom.52844.js"></script>
+
+
+<!-- this b2b stuff will be no longer needed 
+
+<script type="text/javascript">
+//<![CDATA[
+    var b2b = {
+        'tag':"127_8_2",
+        'blog_id':'10811',
+        'CID':'13396',
+        'page_type':false,
+        'isPage':0,
+        'post_id':'314',
+        'home_url':'http://harmonologybook.com',
+        'admin_url':'http://harmonologybook.com/wp-admin/',
+        'plugins_url':'http://harmonologybook.com/wp-content/plugins/tsm-b2b/',
+        'basename':'index.php',
+        'isMobile':0,
+        'isTablet':0,
+        'isFrontPage':1,
+        'isPost':0,
+        'isSuperAdmin':0,
+        'isBeacon':1,
+        'isB2Badmin':0,
+        'hasStore':1,
+        'primary_menu':6,
+        'qstr':[],
+        'containerClasses':{},
+        'post_password_required':0
+    };
+//]]>
+</script>
+
+
+            <script type="text/javascript">
+            window.b2b = window.b2b || {};
+            window.b2b.GA = {"accounts":["UA-57327304-52","UA-26792682-1"]};
+        </script>
+-->
+
+<!-- Google Analytics Tracking by Google Analyticator 6.4.8: http://www.videousermanuals.com/google-analyticator/ -->
+
+<!-- ** this also will have to go:  
+
+<script type="text/javascript">
+    var analyticsFileTypes = [''];
+    var analyticsSnippet = 'enabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+  
+    _gaq.push(['_setAccount', 'UA-57327304-52']);
+    _gaq.push(['_addDevId', 'i9k95']); // Google Analyticator App ID with Google
+    _gaq.push(['_setCampaignCookieTimeout', 0]);
+    _gaq.push(['_trackPageview']);
+    _gaq.push(['_setAccount', 'UA-26792682-1']);
+_gaq.push(['_setCampaignCookieTimeout', 0]);
+_gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+-->
+
+</head> 
+
+<!-- end of doctype and head -->
+
+  <!-- start of body and header -->
+
+   <body class="home page page-id-314 page-template-default beacon r2 chrome" background="images/bkg-2.jpg" style="background-repeat:no-repeat; background-position:center top;">
+
+    <div id="wrapper" class="beacon_wrapper">
+
+<div class="mobile_share_wrap modal_wrap" >
+    <div class="modal_content share_icons">
+        <h3 class="modal_title">Follow Us <a href="#" class="modal_close close-share">x</a></h3>
+        <div class="share_icons_list_wrap modal_list_wrap">
+            <div class="share_icons_list modal_list">
+                                <a href="mailto:?subject=Check out Harmonology&body=I thought you%27d be interested in this site:%0ahttp://harmonologybook.com/" data-icon="L" title="Send to a Friend" class="email_icon"></a>
+<a href="javascript:window.print()" data-icon="H" title="Print This Page" class="print_icon"></a><div class="addthis_default_style addthis_toolbox"><a addthis:userid="harmonologybook/" class="addthis_button_facebook_follow"></a><a addthis:userid="Harmonology1" class="addthis_button_twitter_follow"></a><a addthis:userid="+HarmonologyMx" class="addthis_button_google_follow"></a></div>            </div>
+        </div>
+    </div>
+</div>
+
+<div id="the_header">
+
+    <div class="header_share_wrap dropdown-list" style="background-color: #000000;">
+                    <ul class="share_list"><span class="share_title" style="color:white;">Follow Us</span>
+            <ul class="share_icons" style="background-color: #000000;">
+
+                <a href="mailto:?subject=Check out Harmonology&body=I thought you%27d be interested in this site:%0ahttp://harmonologybook.com/"><span style="color:white; text-decoration:none;">Send to a Friend</span></a>
+
+<a href="javascript:window.print()"><span style="color:white; text-decoration:none;">Print this page</span></a>
+
+<div class="addthis_default_style addthis_toolbox">
+ 
+
+<a addthis:userid="harmonologybook/" href="http://www.facebook.com/harmonologybook/" target="_blank" title="Follow on Facebook">Follow on Facebook</a>
+
+    <a addthis:userid="Harmonology1" class="addthis_button_twitter_follow"><span style="color:white; text-decoration:none;">Follow on Twitter</span></a>
+    <a addthis:userid="+HarmonologyMx" class="addthis_button_google_follow"><span style="color:white; text-decoration:none;">Follow on Google</span></a>
+</div>
+            </ul>
+        </ul>
+    </div>
+
+
+<div class="header_color" style="background-color: rgba(0,0,0,0.35)">
+    <div id='_the_logo' class='_is_plugin header-logo' slug='_the_logo' data-extra-args='{"section":"header"}'>    <h2 class="logo logo-v2">
+
+    <div class="logo-variation logo-variation-header"><div  class="logo-slot pct100 slot_0 slot-type-image align-left"><a href="index.html" title="Harmonology" rel="home"><img  src="images/logo.png" /></a></div></div><div class="logo-variation logo-variation-mobile"><div  class="logo-slot pct100 slot_0 slot-type-image align-left"><a href="http://harmonologybook.com" title="Harmonology" rel="home"><img  src="/files/2015/05/logo.png" /></a></div></div>    </h2>
+</div>        <div class="sa-mobile-triggers">
+            <a href="#" class="trigger share-trigger"><span class="trigger-icon">!</span><span class="trigger-label">Follow Us</span></a>
+            <a href="#" class="trigger sa-menu-trigger"><span class="trigger-icon">a</span><span class="trigger-label">Menu</span></a>
+        </div>
+
+        <div class="menu-wrap">
+            <div class="mobile-menu">
+                <span class="close-menu close-trigger">x</span>
+                <div id="access" class="original_access"><div class="menu align-right"><ul id="menu-primary-menu" class="sf-menu sf-menu_bg" >
+<li id="menu-item-316" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-314 current_page_item menu-item-316"><a href="index.html"><div style="color:white; text-decoration:none;">Home</div></a></li>
+<li id="menu-item-332" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-332"><a href="about-stephen-oconnor.html"><span style="color:white; text-decoration:none;">About Stephen O’Connor</span></a><ul class="sub-menu">   <li id="menu-item-334" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-334" style="background-color:#674b59;"><a href="https://soundcloud.com/stephen-oconnor-10"><span style="color:white; text-decoration:none;">Stephen&#8217;s Music</span></a></li></ul></li>
+<li id="menu-item-336" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-336"><a href="harmonology.html"><span style="color:white; text-decoration:none;">Harmonology</span></a><ul class="sub-menu">    <li id="menu-item-338" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-338" style="background-color:#674b59;"><a href="free-preview.html"><span style="color:white; text-decoration:none;">Free Preview</span></a></li>   <li id="menu-item-340" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-340" style="background-color:#674b59;"><a href="buy-the-book.html"><div style="color:white; text-decoration:none;">Buy the Book</div></a></li> <li id="menu-item-342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-342" style="background-color:#674b59;"><a href="download-charts.html"><div style="color:white; text-decoration:none;">Download Charts</div></a></li>   <li id="menu-item-350" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-350" style="background-color:#674b59;"><a href="feedback.html"><div style="color:white; text-decoration:none;">Feedback</div></a></li> <li id="menu-item-496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-496" style="background-color:#674b59;"><a href="videos.html"><div style="color:white; text-decoration:none;">Videos</div></a></li></ul></li>
+<li id="menu-item-352" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-352"><a href="counterpoint-to-reality.html"><span style="color:white; text-decoration:none;">Counterpoint to Reality</span></a><ul class="sub-menu">    <li id="menu-item-420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-420" style="background-color:#674b59;"><a href="about-the-book.html"><span style="color:white; text-decoration:none;">About The Book</span></a></li>   <li id="menu-item-418" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-418" style="background-color:#674b59;"><a href="buy-the-book-2.html"><span style="color:white; text-decoration:none;">Buy The Book</span></a></li> <li id="menu-item-437" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-437" style="background-color:#674b59;"><a href="feedback-2.html"><span style="color:white; text-decoration:none;">Feedback</span></a></li></ul></li>
+<li id="menu-item-366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366"><a href="blog.html"><span style="color:white; text-decoration:none;">Blog</span></a></li>
+<li id="menu-item-530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-530"><a href="feedback-submission-form.html"><span style="color:white; text-decoration:none;">Feedback Submission Form</span></a></li>
+<li id="menu-item-355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-355"><a href="contact.html"><span style="color:white; text-decoration:none;">Contact</span></a></li></ul></div></div>            </div>
+        </div>
+    </div>
+</div>
+
+<!-- end of body and header -->
+
+<!-- new page content goes here -->
+
+ <div id="container" class="">
+
+    <div class="mobile-abovepost no-phone"><ul class="phones"></ul><ul class="addresses"><li class="primary tsi-address "><a href="http://maps.google.com/maps?daddr=, New York, NY 10019" data-icon="M" title="http://maps.google.com/maps?daddr=, New York, NY 10019" target="_blank">Directions</a></li></ul></div>
+    <div class='full_width_content section_content content_bg wrp_color_bg'><div class='section w1060'>
+<div class='list_block type_article a1 column_amt_1 landscape_4_3 large not_well ' style="background-color: rgba(255,255,255,1);">
+        <div class='item_1 the_list_item  not_hero no_image yes_heads no_desc' lang='en'>
+            <div class='the_list_wrap'>
+            <div class='the_list_item_heads'><H1 class='the_list_item_headline hds_color' style="font-family: 'Lato', sans-serif; font-weight:light;"><center>Harmonology: An Insider's Guide To Healthy Relationships Through Music</center></H1></div>
+        </div>
+        </div>
+        
+</div>
+
+<div class='list_block type_article a1 column_amt_2 landscape_4_3 medium not_well '>
+        <div class='item_1 the_list_item  hero no_image yes_heads no_desc' lang='en' style="background-color:#cb2203;">
+            <div class='the_list_wrap'>
+            <div class='the_list_item_heads'><h3 class='the_list_item_headline hds_color'><a href='http://www.amazon.com/Harmonology-Insiders-Healthy-Relationships-Through-ebook/dp/B00SINA3Q2/ref=sr_1_1?ie=UTF8&qid=1434048595&sr=8-1&keywords=Harmonology&pebp=1434048599102&perid=1F76EA87E7D7451BAC21' target='_blank'><center><span style="font-family: 'Lato', sans-serif; color:white; text-decoration:none;">Buy on Amazon</span></center></a></h3></div>
+        </div>
+        </div>
+        
+        <div class='item_2 the_list_item  hero no_image yes_heads no_desc' lang='en' style="background-color:#cb2203;">
+            <div class='the_list_wrap'>
+            <div class='the_list_item_heads'><h3 class='the_list_item_headline hds_color'><a href='https://itunes.apple.com/us/book/harmonology/id950910902?mt=11&uo=4' target='_blank'><center><span style="font-family: 'Lato', sans-serif; color:white; text-decoration:none;">Buy on iTunes</span></center></a></h3></div>
+        </div>
+        </div>
+        
+        <div class='item_3 the_list_item  hero no_image yes_heads no_desc' lang='en' style="background-color:#cb2203;">
+            <div class='the_list_wrap'>
+            <div class='the_list_item_heads'><h3 class='the_list_item_headline hds_color'><a href='http://my.bookbaby.com/book/harmonology' target='_blank'><center><span style="font-family: 'Lato', sans-serif; color:white; text-decoration:none;">Buy from BookBaby</span></center></a></h3></div>
+        </div>
+        </div>
+        
+</div>
+</div></div>
+
+
+
+
+<!-- end of new page content -->
+
+<!-- footer and end -->
+
+<script>
+        jQuery(document).ready(function(){
+            tsmb2b._the_list.fe.after('3','beacon');
+        });
+    </script>
+    
+</div>
+        
+        <div id="the_footer">
+        <div class="footer">
+            <div class="section w988">
+                <div class="list_block type_article column_amt_4 small">
+                                </div>
+            </div>
+        </div>
+            <div class="footer_brand">
+                <div id='_the_logo' class='_is_plugin footer-logo' slug='_the_logo' data-extra-args='{"section":"footer"}'>    <h2 class="logo logo-v2">
+
+    <div class="logo-variation logo-variation-footer"><div  class="logo-slot pct100 slot_0 slot-type-image align-right"><a href="index.html" title="Harmonology" rel="home"><img  src="images/logo.png" /></a></div></div>    </h2>
+</div>                <!--<ul id="the_share" class="share_icons">
+                    <a href="mailto:?subject=Check out Harmonology&body=I thought you%27d be interested in this site:%0ahttp://harmonologybook.com/" data-icon="L" title="Send to a Friend" class="email_icon"></a>
+<a href="javascript:window.print()" data-icon="H" title="Print This Page" class="print_icon"></a><div class="addthis_default_style addthis_toolbox"><a addthis:userid="harmonologybook/" class="addthis_button_facebook_follow"></a><a addthis:userid="Harmonology1" class="addthis_button_twitter_follow"></a><a addthis:userid="+HarmonologyMx" class="addthis_button_google_follow"></a></div>                    <li class="search_button"><a href="#"><span data-icon="u"></span></a></li>
+                </ul>-->
+            </div>
+        <div class="footer">
+            <div id='_the_copyright'>
+<div class="copy">
+<ul>
+<li>Copyright &copy; 2016 Harmonology, all rights reserved.</li>
+<li><span class="footer-street-address footer-address"></span><span class="footer-city-state-zip-address footer-address">,  .</span> <span class="footer-phone-address footer-address"></span></li>
+</ul>
+</div>
+ </div>
+            </div>
+        </div>
+    </div>
+        <div id='_the_embeded_below_mods' slug=''><div id='_the_embeded_below_mods_wrapper'></div><div id='_the_embeded_below_mods_btn' class='_is_embeded'></div></div>    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript">var addthis_product = 'wpf-122';
+</script><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=5f9c76794862fad662d2db1cb6af23f7"></script><script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/harmonologybook.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+
+ 
+<script type='text/javascript' src='js/thickbox.js?ver=127_8_2'></script>
+<script type='text/javascript' src='js/underscore.min.js?ver=127_8_2'></script>
+<script type='text/javascript' src='js/shortcode.min.js?ver=127_8_2'></script>
+<script type='text/javascript' src='js/media-upload.min.js?ver=127_8_2'></script>
+<script type='text/javascript' src='js/jquery.slides.min.js'></script>
+<script type='text/javascript' src='js/theme-min.js'></script>
+<script type='text/javascript' src='js/slick.min.js'></script>
+<script type='text/javascript' src='js/lightbox.js'></script>
+<script type='text/javascript' src='js/theme-menu-horizontal-v1.js'></script>
+<script type='text/javascript' src='js/scripts.js'></script>
+<script type='text/javascript' src='js/wp-embed.min.js?ver=127_8_2'></script>
+
+ 
+            <!--
+                host name: b2b-web5
+                blog id: 10811
+                release: 4675
+                agent: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+                isIE: 
+                verIE: 0
+            -->
+
+            <!--wp_footer--></body>
+</html>
