@@ -908,6 +908,8 @@ hr.w988 {
   -webkit-border-radius: .3rem;
   display: inline-block;
 }
+
+/*
 #container .the_list_item .the_list_item_action a:after,
 #container .the_list_item .the_list_item_action span:after,
 #container .the_gallery_item .the_list_item_action span:after {
@@ -915,6 +917,7 @@ hr.w988 {
   font-size: 75%;
   font-family: "tsi-cms";
 }
+*/
 #container .the_list_item .the_list_item_action a,
 #container .the_list_item .the_list_item_action span,
 #container .the_gallery_item .the_list_item_action span {
