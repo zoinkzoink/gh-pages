@@ -12425,6 +12425,8 @@ body:not(.isMobile) #wrapper .page_title,
 #access .menu li a .more-menu-arrow {
   font-family: 'tsi-cms';
   font-size: 70%;
+  color:white;
+  text-decoration:none;
 }
 #access .menu.align-left {
   text-align: left;
