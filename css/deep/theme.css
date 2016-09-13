@@ -12769,6 +12769,7 @@ html:not(.mobileview) .header_share_wrap.dropdown-list {
 }
 .mobileview .sa-show-menu #wrapper .mobile-menu {
   right: 0;
+  background-color:#674b59;
 }
 .mobileview .sa-show-menu #wrapper #access {
   height: 100%;
